@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Clean', 'Damaged', 'Dusty']
+
+roboflow:
+  workspace: nuruls-workspace-82akh
+  project: solar-vision-ai
+  version: 37
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/nuruls-workspace-82akh/solar-vision-ai/dataset/37
